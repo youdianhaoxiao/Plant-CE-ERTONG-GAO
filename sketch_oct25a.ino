@@ -134,3 +134,10 @@ void syncDate() {
   Serial.println("London time: " + GB.dateTime());
 
 }
+
+void sendMQTT() {
+
+  if (!client.connected()) {
+    reconnect();
+  }
+  client.loop();
