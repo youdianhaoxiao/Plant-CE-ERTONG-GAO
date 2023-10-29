@@ -15,3 +15,6 @@
 | Raspberry Pi | Store and visualise the data |
 | Soil Moisture Sensor | Check soil moisture |
 | Active Piezo Buzzer | Sound an alarm to serve as a warning |
+
+
+### Detailed assembly pictures
