@@ -56,3 +56,10 @@ void setup() {
   // Turn the LED off by making the voltage HIGH
   pinMode(BUILTIN_LED, OUTPUT);     
   digitalWrite(BUILTIN_LED, HIGH);  
+
+// Set up the outputs to control the soil sensor
+  // switch and the blue LED for status indicator
+  pinMode(sensorVCC, OUTPUT); 
+  digitalWrite(sensorVCC, LOW);
+  pinMode(blueLED, OUTPUT); 
+  digitalWrite(blueLED, HIGH);
