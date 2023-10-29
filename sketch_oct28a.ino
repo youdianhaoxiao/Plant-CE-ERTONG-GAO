@@ -49,3 +49,10 @@ int value = 0;
 
 // Date and time
 Timezone GB;
+
+void setup() {
+  // Set up LED to be controllable via broker
+  // Initialize the BUILTIN_LED pin as an output
+  // Turn the LED off by making the voltage HIGH
+  pinMode(BUILTIN_LED, OUTPUT);     
+  digitalWrite(BUILTIN_LED, HIGH);  
