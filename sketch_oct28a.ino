@@ -107,3 +107,10 @@ void readMoisture(){
   Serial.print("Wet ");
   Serial.println(Moisture);   // read the value from the nails
 }
+
+void startWifi() {
+  // We start by connecting to a WiFi network
+  Serial.println();
+  Serial.print("Connecting to ");
+  Serial.println(ssid);
+  WiFi.begin(ssid, password);
