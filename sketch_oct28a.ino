@@ -63,3 +63,22 @@ void setup() {
   digitalWrite(sensorVCC, LOW);
   pinMode(blueLED, OUTPUT); 
   digitalWrite(blueLED, HIGH);
+
+// open serial connection for debug info
+  Serial.begin(115200);
+  delay(100);
+
+  // start DHT sensor
+  pinMode(DHTPin, INPUT);
+  dht.begin();
+
+  // run initialisation functions
+  startWifi();
+  startWebserver();
+  syncDate();
+
+  // start MQTT server
+  client.setServer(mqtt_server, 1884);
+  client.setCallback(callback);
+
+}
