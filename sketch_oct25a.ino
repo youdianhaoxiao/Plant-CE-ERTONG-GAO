@@ -141,3 +141,15 @@ void sendMQTT() {
     reconnect();
   }
   client.loop();
+
+Temperature = dht.readTemperature(); // Gets the values of the temperature
+  snprintf (msg, 50, "%.1f", Temperature);
+  Serial.print("Publish message for t: ");
+  Serial.println(msg);
+  client.publish("student/CASA0014/plant/zczqhw8/temperature", msg);
+
+  Humidity = dht.readHumidity(); // Gets the values of the humidity
+  snprintf (msg, 50, "%.0f", Humidity);
+  Serial.print("Publish message for h: ");
+  Serial.println(msg);
+  client.publish("student/CASA0014/plant/zczqhw8/humidity", msg);
