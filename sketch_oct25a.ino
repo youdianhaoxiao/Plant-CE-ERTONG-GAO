@@ -203,3 +203,21 @@ void reconnect() {
     }
   }
 }
+
+void startWebserver() {
+  // when connected and IP address obtained start HTTP server  
+  server.on("/", handle_OnConnect);
+  server.onNotFound(handle_NotFound);
+  server.begin();
+  Serial.println("HTTP server started");  
+}
+
+void handle_OnConnect() {
+  Temperature = dht.readTemperature(); // Gets the values of the temperature
+  Humidity = dht.readHumidity(); // Gets the values of the humidity
+  server.send(200, "text/html", SendHTML(Temperature, Humidity, Moisture));
+}
+
+void handle_NotFound() {
+  server.send(404, "text/plain", "Not found");
+}
