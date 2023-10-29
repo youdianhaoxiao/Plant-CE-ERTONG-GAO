@@ -153,3 +153,11 @@ Temperature = dht.readTemperature(); // Gets the values of the temperature
   Serial.print("Publish message for h: ");
   Serial.println(msg);
   client.publish("student/CASA0014/plant/zczqhw8/humidity", msg);
+
+//Moisture = analogRead(soilPin);   // moisture read by readMoisture function
+  snprintf (msg, 50, "%.0i", Moisture);
+  Serial.print("Publish message for m: ");
+  Serial.println(msg);
+  client.publish("student/CASA0014/plant/zczqhw8/moisture", msg);
+
+}
