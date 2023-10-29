@@ -92,3 +92,18 @@ void loop() {
   
   client.loop();
 }
+
+void readMoisture(){
+  
+  // power the sensor
+  digitalWrite(sensorVCC, HIGH);
+  digitalWrite(blueLED, LOW);
+  delay(100);
+  // read the value from the sensor:
+  Moisture = analogRead(soilPin);         
+  digitalWrite(sensorVCC, LOW);  
+  digitalWrite(blueLED, HIGH);
+  delay(100);
+  Serial.print("Wet ");
+  Serial.println(Moisture);   // read the value from the nails
+}
