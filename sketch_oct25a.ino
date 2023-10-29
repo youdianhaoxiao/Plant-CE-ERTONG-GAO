@@ -125,3 +125,12 @@ void startWifi() {
   Serial.print("IP address: ");
   Serial.println(WiFi.localIP());
 }
+
+void syncDate() {
+  // get real date and time
+  waitForSync();
+  Serial.println("UTC: " + UTC.dateTime());
+  GB.setLocation("Europe/London");
+  Serial.println("London time: " + GB.dateTime());
+
+}
