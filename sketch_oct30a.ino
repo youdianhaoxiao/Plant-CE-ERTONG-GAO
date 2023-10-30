@@ -28,3 +28,19 @@ DHT dht(DHTPin, DHTTYPE);   // Initialize DHT sensor.
 #define SECRET_MQTTUSER "user name - eg student"
 #define SECRET_MQTTPASS "password";
  */
+
+const char* ssid     = SECRET_SSID;
+const char* password = SECRET_PASS;
+const char* mqttuser = SECRET_MQTTUSER;
+const char* mqttpass = SECRET_MQTTPASS;
+
+ESP8266WebServer server(80);
+const char* mqtt_server = "mqtt.cetools.org";
+WiFiClient espClient;
+PubSubClient client(espClient);
+long lastMsg = 0;
+char msg[50];
+int value = 0;
+
+// Date and time
+Timezone GB;
