@@ -16,3 +16,15 @@ int Moisture = 1; // initial value just in case web page is loaded before readMo
 int sensorVCC = 13;
 int blueLED = 2;
 DHT dht(DHTPin, DHTTYPE);   // Initialize DHT sensor.
+
+// Wifi and MQTT
+#include "arduino_secrets.h" 
+/*
+**** please enter your sensitive data in the Secret tab/arduino_secrets.h
+**** using format below
+
+#define SECRET_SSID "ssid name"
+#define SECRET_PASS "ssid password"
+#define SECRET_MQTTUSER "user name - eg student"
+#define SECRET_MQTTPASS "password";
+ */
