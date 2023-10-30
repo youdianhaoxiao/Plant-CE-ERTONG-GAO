@@ -77,3 +77,16 @@ void setup() {
   client.setCallback(callback);
 
 }
+
+void loop() {
+  // handler for receiving requests to webserver
+  server.handleClient();
+
+  if (minuteChanged()) {
+    readMoisture();
+    sendMQTT();
+    Serial.println(GB.dateTime("H:i:s")); // UTC.dateTime("l, d-M-y H:i:s.v T")
+  }
+  
+  client.loop();
+}
