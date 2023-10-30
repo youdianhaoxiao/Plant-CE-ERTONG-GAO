@@ -87,6 +87,20 @@ void loop() {
     sendMQTT();
     Serial.println(GB.dateTime("H:i:s")); // UTC.dateTime("l, d-M-y H:i:s.v T")
   }
+
+  void readMoisture(){
   
+  // power the sensor
+  digitalWrite(sensorVCC, HIGH);
+  digitalWrite(blueLED, LOW);
+  delay(100);
+  // read the value from the sensor:
+  Moisture = analogRead(soilPin);         
+  digitalWrite(sensorVCC, LOW);  
+  digitalWrite(blueLED, HIGH);
+  delay(100);
+  Serial.print("Wet ");
+  Serial.println(Moisture);   // read the value from the nails
+}
   client.loop();
 }
