@@ -131,3 +131,22 @@ void syncDate() {
   Serial.println("London time: " + GB.dateTime());
 
 }
+
+void sendMQTT() {
+
+  if (!client.connected()) {
+    reconnect();
+  }
+  client.loop();
+
+  Temperature = dht.readTemperature(); // Gets the values of the temperature
+  snprintf (msg, 50, "%.1f", Temperature);
+  Serial.print("Publish message for t: ");
+  Serial.println(msg);
+  client.publish("student/CASA0014/plant/ucfnega/temperature", msg);
+
+  Humidity = dht.readHumidity(); // Gets the values of the humidity
+  snprintf (msg, 50, "%.0f", Humidity);
+  Serial.print("Publish message for h: ");
+  Serial.println(msg);
+  client.publish("student/CASA0014/plant/ucfnega/humidity", msg);
