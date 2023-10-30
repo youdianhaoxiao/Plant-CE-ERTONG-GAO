@@ -44,3 +44,36 @@ int value = 0;
 
 // Date and time
 Timezone GB;
+
+void setup() {
+  // Set up LED to be controllable via broker
+  // Initialize the BUILTIN_LED pin as an output
+  // Turn the LED off by making the voltage HIGH
+  pinMode(BUILTIN_LED, OUTPUT);     
+  digitalWrite(BUILTIN_LED, HIGH);  
+
+  // Set up the outputs to control the soil sensor
+  // switch and the blue LED for status indicator
+  pinMode(sensorVCC, OUTPUT); 
+  digitalWrite(sensorVCC, LOW);
+  pinMode(blueLED, OUTPUT); 
+  digitalWrite(blueLED, HIGH);
+
+  // open serial connection for debug info
+  Serial.begin(115200);
+  delay(100);
+
+  // start DHT sensor
+  pinMode(DHTPin, INPUT);
+  dht.begin();
+
+  // run initialisation functions
+  startWifi();
+  startWebserver();
+  syncDate();
+
+  // start MQTT server
+  client.setServer(mqtt_server, 1884);
+  client.setCallback(callback);
+
+}
