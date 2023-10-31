@@ -8,7 +8,7 @@
 #define DHTTYPE DHT22   // DHT 22  (AM2302), AM2321
 
 // Sensors - DHT22 and Nails
-uint8_t DHTPin = 12;        // on Pin 2 of the Huzzah
+uint8_t DHTPin = 12;        // on Pin 12 of the Huzzah
 uint8_t soilPin = 0;      // ADC or A0 pin on Huzzah
 float Temperature;
 float Humidity;
