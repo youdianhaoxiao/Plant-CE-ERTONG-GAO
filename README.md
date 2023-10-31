@@ -9,6 +9,7 @@
 | ESP8266 | For connecting to wifi and publish data to MQTT server |
 | DHT22 | Sensor for temperature and humidity |
 | ultrasonic rangefinder | detect movement of any approaches within certain distance |
+| LED bulb | connect with ultrasonic rangefinder to flash |
 | resistor | Limit the voltage to tolerant range |
 | nails | measure resistance between for moisture |
 | Raspberry Pi | Store and visualise the data |
@@ -26,3 +27,4 @@ If the distance is not less than 30 but less than 90, the code will execute anot
 If the distance does not meet the previous conditions, meaning the distance is greater than or equal to 90 (possibly the maximum measurement range), then 'blinkrate' will be set to 0 and the LED will not blink.
 ![f6d77bd476d4fab1103affcdc5cfd26](https://github.com/youdianhaoxiao/Plant-CE-ERTONG-GAO/assets/146217421/55d1d5c9-ca04-44ad-af97-511fadc7e47b)
 
+## Position of the sensor
