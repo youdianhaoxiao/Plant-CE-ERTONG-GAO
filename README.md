@@ -38,4 +38,5 @@ Here is my final prototype of the factory monitor and how it will be positioned 
 ## Data visualisation
 On the afternoon of October 31st I used the Plant Monitor basic prototype, the entire data visualized in charts via telegraf in influxdb, the peak at the beginning was produced when I watered the plant with a full bottle of water.
 ![d68ec4c233479338c35a7ce076d4262](https://github.com/youdianhaoxiao/Plant-CE-ERTONG-GAO/assets/146217421/ef7e7a25-ff96-4594-bdfa-662610f4845c)
-
+In order to test the temperature, I blew into the DHT22 and We could see that the value reached 60，
+![a5b9c75e2b6286cfe14fb14430be22d](https://github.com/youdianhaoxiao/Plant-CE-ERTONG-GAO/assets/146217421/b040d530-3ca1-41f2-b548-78b9de34277d)
