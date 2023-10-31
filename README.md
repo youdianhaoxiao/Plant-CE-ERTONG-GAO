@@ -36,11 +36,23 @@ Here is my final prototype of the factory monitor and how it will be positioned 
 ![334455da0fea6dda641cc268b40f0f5](https://github.com/youdianhaoxiao/Plant-CE-ERTONG-GAO/assets/146217421/5da4c159-18ef-456e-85f0-a075e7b98be1)
 
 ## Data visualisation
+After we complete the corresponding settings through the programming software Arduino IDE used in the entire project.
+
 Then, using the knowledge we learned earlier, we can open MQTT Explorer which can send readings to the MQTT web server and make them visible locally by browsing to the device's IP address：
 ![c19af44d1b4de30d33fec52c8d087a0](https://github.com/youdianhaoxiao/Plant-CE-ERTONG-GAO/assets/146217421/ae13003d-ac1a-43d1-bc14-4882f90f3d7a)
 ![222835c3aef55bf31fde28e43d52140](https://github.com/youdianhaoxiao/Plant-CE-ERTONG-GAO/assets/146217421/86af4062-5063-4a9b-a38b-3cedb3fbf33e)
+Before setting up the Raspberry Pi to our data store, we need to install the latest 64-bit version of Raspbian. Once the installation is complete, insert your microSD card and make sure it has at least 8GB or more of space. Before you start writing on the SD card, select a 64-bit operating system, then enter your local network information and set up your account. Record your information as we will use it later.
 
-On the afternoon of October 31st I used the Plant Monitor basic prototype, the entire data visualized in charts via telegraf in influxdb, the peak at the beginning was produced when I watered the plant with a full bottle of water.
+![00755f72209fd27268aff96b98b69e6](https://github.com/youdianhaoxiao/Plant-CE-ERTONG-GAO/assets/146217421/eab2dd43-c77c-451c-96ef-f2a8fb9c9a65)
+![7bf6168be15c29a8b25f2d4da839463](https://github.com/youdianhaoxiao/Plant-CE-ERTONG-GAO/assets/146217421/bc9b05a1-723b-4b01-8641-c80f5bc1bd3d)
+
+
+Once the writing is complete and the card has flashed, insert the card into the Raspberry Pi and power it up. Open a new terminal window on Windows and enter the hostname you just created:
+
+
+Through the knowledge learned, make a series of settings about influxdb (Enter your hostname in the link http://hostname.local:8086 and create a new account) and Grafana (use the account:admin and password:admin to log in, http://staff-pi-casa0014.local:3000)
+
+Then,We can monitor the plants through the monitor and return the data to the web page for viewing.on the afternoon of October 31st I used the Plant Monitor basic prototype, the entire data visualized in charts via telegraf in influxdb, the peak at the beginning was produced when I watered the plant with a full bottle of water.
 ![d68ec4c233479338c35a7ce076d4262](https://github.com/youdianhaoxiao/Plant-CE-ERTONG-GAO/assets/146217421/ef7e7a25-ff96-4594-bdfa-662610f4845c)
 In order to test the temperature, I blew into the DHT22 and We could see that the value reached 60，Then we can see that the temperature starts to slowly change.
 ![a5b9c75e2b6286cfe14fb14430be22d](https://github.com/youdianhaoxiao/Plant-CE-ERTONG-GAO/assets/146217421/b040d530-3ca1-41f2-b548-78b9de34277d)
