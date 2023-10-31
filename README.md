@@ -22,3 +22,4 @@ The picture above shows the nails wrapped around the wire and we will put both n
 The resistor and DHT22 sensor are soldered to the ESP8266 so the kit is held in place as shown in the picture above.
 
 The image below shows how the ultrasonic range finder and buzzer are connected to the ARDUINO board shown below,This part of the coding is designed so that if the ultrasonic device detects an object within 50cm, the buzzer will sound.
+![de762bdeb7769487f5ba1377b0ea8ff](https://github.com/youdianhaoxiao/Plant-CE-ERTONG-GAO/assets/146217421/ebabb753-9279-410a-97fa-10a08f677fd0)
