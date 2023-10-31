@@ -36,6 +36,10 @@ Here is my final prototype of the factory monitor and how it will be positioned 
 ![334455da0fea6dda641cc268b40f0f5](https://github.com/youdianhaoxiao/Plant-CE-ERTONG-GAO/assets/146217421/5da4c159-18ef-456e-85f0-a075e7b98be1)
 
 ## Data visualisation
+Then, using the knowledge we learned earlier, we can open MQTT Explorer which can send readings to the MQTT web server and make them visible locally by browsing to the device's IP address：
+![c19af44d1b4de30d33fec52c8d087a0](https://github.com/youdianhaoxiao/Plant-CE-ERTONG-GAO/assets/146217421/ae13003d-ac1a-43d1-bc14-4882f90f3d7a)
+![222835c3aef55bf31fde28e43d52140](https://github.com/youdianhaoxiao/Plant-CE-ERTONG-GAO/assets/146217421/86af4062-5063-4a9b-a38b-3cedb3fbf33e)
+
 On the afternoon of October 31st I used the Plant Monitor basic prototype, the entire data visualized in charts via telegraf in influxdb, the peak at the beginning was produced when I watered the plant with a full bottle of water.
 ![d68ec4c233479338c35a7ce076d4262](https://github.com/youdianhaoxiao/Plant-CE-ERTONG-GAO/assets/146217421/ef7e7a25-ff96-4594-bdfa-662610f4845c)
 In order to test the temperature, I blew into the DHT22 and We could see that the value reached 60，Then we can see that the temperature starts to slowly change.
