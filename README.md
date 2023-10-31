@@ -19,4 +19,6 @@
 The picture above shows the nails wrapped around the wire and we will put both nails into the soil to test the moisture content. The logic behind using nails is that water can conduct electricity, but dry soil cannot.
 ![c67a225d95f21d0487c20b9ef9c755a](https://github.com/youdianhaoxiao/Plant-CE-ERTONG-GAO/assets/146217421/d33fdc7d-7dcd-4b05-aa20-a7b36706f32d)
 ![3d9a6ada1cdaf87d57281c5b4d5c9e0](https://github.com/youdianhaoxiao/Plant-CE-ERTONG-GAO/assets/146217421/714d0538-0cbc-474e-8643-c5a14e5768a3)
-The resistor and DHT22 sensor are soldered to the ESP8266 so the kit is held in place as shown in the picture below
+The resistor and DHT22 sensor are soldered to the ESP8266 so the kit is held in place as shown in the picture above.
+
+The image below shows how the ultrasonic range finder and buzzer are connected to the ARDUINO board shown below.
