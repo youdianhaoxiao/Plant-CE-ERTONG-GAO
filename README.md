@@ -28,3 +28,5 @@ If the distance does not meet the previous conditions, meaning the distance is g
 ![f6d77bd476d4fab1103affcdc5cfd26](https://github.com/youdianhaoxiao/Plant-CE-ERTONG-GAO/assets/146217421/55d1d5c9-ca04-44ad-af97-511fadc7e47b)
 
 ## Position of the sensor
+The picture shows the position of a basic plant monitor when used with plants, the disadvantage of this prototype is that the distance between the nails is random and completely depends on the user how to insert them, but the user should not gain knowledge of the correct distance. Incorrect distance between nails will result in incorrect resistance values and thus incorrect moisture readings.
+![db29ef35473dda4ab624c5ad8bb761f](https://github.com/youdianhaoxiao/Plant-CE-ERTONG-GAO/assets/146217421/b6210bb2-b708-4427-9bc4-575e07864ddc)
