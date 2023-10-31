@@ -12,7 +12,7 @@
 | resistor | Limit the voltage to tolerant range |
 | nails | measure resistance between for moisture |
 | Raspberry Pi | Store and visualise the data |
-| Buzzer | Send out a warning |
+| Buzzer | Send out a warning voice|
 
 ### Detailed assembly pictures
 ![0bf0253ed899834b4a0863fba025743](https://github.com/youdianhaoxiao/Plant-CE-ERTONG-GAO/assets/146217421/9bc5b5bd-1f87-4d1b-a60e-48ea1bd62277)
