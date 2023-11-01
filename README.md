@@ -56,12 +56,19 @@ Once the writing is complete and the card has flashed, insert the card into the 
 
 Through the knowledge learned, make a series of settings about influxdb (Enter your hostname in the link http://hostname.local:8086 and create a new account) and Grafana (use the account:admin and password:admin to log in, http://staff-pi-casa0014.local:3000)
 
-Then,We can monitor the plants through the monitor and return the data to the web page for viewing.on the afternoon of October 31st I used the Plant Monitor basic prototype, the entire data visualized in charts via telegraf in influxdb, the peak at the beginning was produced when I watered the plant with a full bottle of water.
+Then,We can monitor the plants through the monitor and return the data to the web page for viewing.on the afternoon of October 31st I used the Plant Monitor basic prototype, the entire data visualized in charts via telegraf in influxdb, the peak at the beginning was produced when I watered the plant with a full bottle of water.As shown below
 
 
 ![d68ec4c233479338c35a7ce076d4262](https://github.com/youdianhaoxiao/Plant-CE-ERTONG-GAO/assets/146217421/ef7e7a25-ff96-4594-bdfa-662610f4845c)
-In order to test the temperature, I blew into the DHT22 and We could see that the value reached 60，After a while, the value became 40，Then we can see that the temperature starts to slowly change.
+In order to test the temperature, I blew into the DHT22 and We could see that the value reached 60，After a while, the value became 40，Then we can see that the temperature starts to slowly change.（As shown below）
 
 ![a5b9c75e2b6286cfe14fb14430be22d](https://github.com/youdianhaoxiao/Plant-CE-ERTONG-GAO/assets/146217421/b040d530-3ca1-41f2-b548-78b9de34277d)
+
+These are the data I monitored from 10pm on October 31st to 10am on November 1st. I found that there were many fluctuations in soil moisture. I think this has a greater relationship with the location of the nails.（As shown below）
+![ac573e70302952918da74cd66f8837b](https://github.com/youdianhaoxiao/Plant-CE-ERTONG-GAO/assets/146217421/0c35c9bf-ba2d-4b91-af66-81226be2edba)
+
+
+
+
 
 When we complete these operations, we can see the data for monitoring the plant soil.
