@@ -161,6 +161,8 @@ void sendMQTT() {
 
 }
 
+Send MQTT messages: Through the (sendMQTT) function, the code uses the MQTT client to connect to the MQTT server and send messages of temperature, humidity, and humidity values to the specified MQTT topic.
+
 void callback(char* topic, byte* payload, unsigned int length) {
   Serial.print("Message arrived [");
   Serial.print(topic);
