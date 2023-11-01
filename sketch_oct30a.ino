@@ -105,6 +105,7 @@ void loop() {
 }
   client.loop();
 }
+Read soil moisture: Use the (readMoisture) function to turn on the power of the soil moisture sensor, read the value of the sensor, then turn off the power, and output the humidity value through the serial port at the same time.
 
 void startWifi() {
   // We start by connecting to a WiFi network
