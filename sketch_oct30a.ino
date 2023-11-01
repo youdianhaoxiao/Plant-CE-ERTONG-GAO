@@ -253,3 +253,4 @@ String SendHTML(float Temperaturestat, float Humiditystat, int Moisturestat) {
   ptr += "</html>\n";
   return ptr;
 }
+This section is about the (SendHTML) function: used to generate HTML code for Web pages, including temperature, humidity, humidity sensor data, and date and time information) Function: used to generate HTML code for Web pages, including temperature, humidity, humidity sensor data, and date time information
