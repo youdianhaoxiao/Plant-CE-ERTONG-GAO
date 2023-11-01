@@ -4,6 +4,7 @@
 #include <PubSubClient.h>
 #include <DHT.h>
 #include <DHT_U.h>
+Introducing the required libraries: This part begins by introducing a series of Arduino libraries, including the WiFi library for ESP8266 (ESP8266WiFi.h), the Web server library ESP8266WebServer.h), the ezTime library for processing dates and times, and the MQTT client client (PubSubClient.h), and libraries for DHT22 sensors (DHT.h and DHT_U.h)
 
 #define DHTTYPE DHT22   // DHT 22  (AM2302), AM2321
 
