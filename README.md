@@ -28,6 +28,11 @@ If the distance does not meet the previous conditions, meaning the distance is g
 The reason why I did this part is so that when an object comes close to the plant, an alert will sound. 
 ![f6d77bd476d4fab1103affcdc5cfd26](https://github.com/youdianhaoxiao/Plant-CE-ERTONG-GAO/assets/146217421/55d1d5c9-ca04-44ad-af97-511fadc7e47b)
 
+
+https://github.com/youdianhaoxiao/Plant-CE-ERTONG-GAO/assets/146217421/8415047c-701b-43b8-b84c-c804e6b3699b
+
+
+
 ## Position of the sensor
 The picture shows the position of a basic plant monitor when used with plants.
 ![db29ef35473dda4ab624c5ad8bb761f](https://github.com/youdianhaoxiao/Plant-CE-ERTONG-GAO/assets/146217421/b6210bb2-b708-4427-9bc4-575e07864ddc)
