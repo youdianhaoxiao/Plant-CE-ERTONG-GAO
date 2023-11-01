@@ -61,7 +61,7 @@ Once the writing is complete and the card has flashed, insert the card into the 
 
 Through the knowledge learned, make a series of settings about influxdb (Enter your hostname in the link http://hostname.local:8086 and create a new account) and Grafana (use the account:admin and password:admin to log in, http://staff-pi-casa0014.local:3000)
 
-Then,We can monitor the plants through the monitor and return the data to the web page for viewing.on the afternoon of October 31st I used the Plant Monitor basic prototype, the entire data visualized in charts via telegraf in influxdb, the peak at the beginning was produced when I watered the plant with a full bottle of water.As shown below
+Then,We can monitor the plants through the monitor and return the data to the web page for viewing.on the afternoon of October 31st I used the Plant Monitor basic prototype, the entire data visualized in charts via telegraf in influxdb, the peak at the beginning was produced when I watered the plant with a full bottle of water.（As shown below）
 
 
 ![d68ec4c233479338c35a7ce076d4262](https://github.com/youdianhaoxiao/Plant-CE-ERTONG-GAO/assets/146217421/ef7e7a25-ff96-4594-bdfa-662610f4845c)
