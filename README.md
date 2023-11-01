@@ -69,7 +69,7 @@ In order to test the temperature, I blew into the DHT22 and We could see that th
 
 ![a5b9c75e2b6286cfe14fb14430be22d](https://github.com/youdianhaoxiao/Plant-CE-ERTONG-GAO/assets/146217421/b040d530-3ca1-41f2-b548-78b9de34277d)
 
-These are the data I monitored from 10pm on October 31st to 10am on November 1st. I found that there were many fluctuations in soil moisture. I think this has a greater relationship with the location of the nails.（As shown below）
+These are the data I monitored from 10pm on October 31st to 10am on November 1st. I found that there were many fluctuations in soil moisture,I think this is a regular phenomenon. Because there are very regular fluctuations, I think it may be a problem with the placement of the nails.（As shown below）
 ![ac573e70302952918da74cd66f8837b](https://github.com/youdianhaoxiao/Plant-CE-ERTONG-GAO/assets/146217421/0c35c9bf-ba2d-4b91-af66-81226be2edba)
 
 
