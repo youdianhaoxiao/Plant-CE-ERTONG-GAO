@@ -32,7 +32,7 @@ The reason why I did this part is so that when an object comes close to the plan
 The picture shows the position of a basic plant monitor when used with plants.
 ![db29ef35473dda4ab624c5ad8bb761f](https://github.com/youdianhaoxiao/Plant-CE-ERTONG-GAO/assets/146217421/b6210bb2-b708-4427-9bc4-575e07864ddc)
 
-Here is my final prototype of the factory monitor and how it will be positioned with the factory.
+Here is my final prototype of the factory monitor and how it will be positioned with the factory.（These are two separate devices）
 ![334455da0fea6dda641cc268b40f0f5](https://github.com/youdianhaoxiao/Plant-CE-ERTONG-GAO/assets/146217421/5da4c159-18ef-456e-85f0-a075e7b98be1)
 
 ## Data visualisation
