@@ -48,6 +48,10 @@ Before setting up the Raspberry Pi to our data store, we need to install the lat
 
 
 Once the writing is complete and the card has flashed, insert the card into the Raspberry Pi and power it up. Open a new terminal window on Windows and enter the hostname you just created:
+![ca76b9ec9382b884a46ee864e412fac](https://github.com/youdianhaoxiao/Plant-CE-ERTONG-GAO/assets/146217421/002d2096-9399-4029-ab5a-228ebaf70a4a)
+
+
+
 
 
 Through the knowledge learned, make a series of settings about influxdb (Enter your hostname in the link http://hostname.local:8086 and create a new account) and Grafana (use the account:admin and password:admin to log in, http://staff-pi-casa0014.local:3000)
