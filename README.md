@@ -48,8 +48,9 @@ Then, using the knowledge we learned earlier, we can open MQTT Explorer which ca
 ![222835c3aef55bf31fde28e43d52140](https://github.com/youdianhaoxiao/Plant-CE-ERTONG-GAO/assets/146217421/86af4062-5063-4a9b-a38b-3cedb3fbf33e)
 Before setting up the Raspberry Pi to our data store, we need to install the latest 64-bit version of Raspbian. Once the installation is complete, insert your microSD card and make sure it has at least 8GB or more of space. Before you start writing on the SD card, select a 64-bit operating system, then enter your local network information and set up your account. Record your information as we will use it later.
 
-![00755f72209fd27268aff96b98b69e6](https://github.com/youdianhaoxiao/Plant-CE-ERTONG-GAO/assets/146217421/eab2dd43-c77c-451c-96ef-f2a8fb9c9a65)
-![7bf6168be15c29a8b25f2d4da839463](https://github.com/youdianhaoxiao/Plant-CE-ERTONG-GAO/assets/146217421/bc9b05a1-723b-4b01-8641-c80f5bc1bd3d)
+![ea7536d9db7fa6d600e4128e35c3b18](https://github.com/youdianhaoxiao/Plant-CE-ERTONG-GAO/assets/146217421/fe8de4d0-30db-4f28-853f-7efd488a5311)
+![e8198377b8f4c38dfca17f3b17dc19c](https://github.com/youdianhaoxiao/Plant-CE-ERTONG-GAO/assets/146217421/579f2e91-30fb-4398-8091-c64478ee7f14)
+
 
 
 Once the writing is complete and the card has flashed, insert the card into the Raspberry Pi and power it up. Open a new terminal window on Windows and enter the hostname you just created:
